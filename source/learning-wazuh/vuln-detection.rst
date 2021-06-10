@@ -111,6 +111,16 @@ In the ``/var/ossec/etc/ossec.conf`` file of the Wazuh manager, scroll down to t
         <enabled>no</enabled>
         <update_interval>1h</update_interval>
       </provider>
+      <provider name="suse">
+        <enabled>no</enabled>
+        <os>15-server</os>
+        <os>15-desktop</os>
+        <os>12-server</os>
+        <os>12-desktop</os>
+        <os>11-server</os>
+        <os>11-desktop</os>
+        <update_interval>1h</update_interval>
+      </provider>
       <provider name="nvd">
         <enabled>yes</enabled>
         <update_from_year>2010</update_from_year>
