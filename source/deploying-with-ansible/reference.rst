@@ -762,6 +762,7 @@ Wazuh Manager
       https_use_ca: False
       https_ca: "ca.crt"
       logging_level: "info"
+      logging_format: "plain"
       cors: no
       cors_source_route: "*"
       cors_expose_headers: "*"
